@@ -6,17 +6,18 @@
  
 @(bitmap/file "me.jpeg")
 @(linebreak)
-@(italic "\"Everyone wants to change the world,
-but nobody wants to help mom with the dishes.\"")
-@(linebreak)- @(bold "Matthew Flatt, University of Utah")
+@smaller{@italic{"Everyone wants to change the world, but nobody wants to help mom with the dishes}}
+@(linebreak)
+@smaller{@bold{- Matthew Flatt, University of Utah}}
 
 @(larger @(larger (@bold "Education")))
 @(linebreak)
 @(line 750 0 "black")
  
-@(bold "The British School in Tokyo")
-@(italic "2009 - 2020")
+@(bold "Northeastern University")
+@(italic "2024 - present")
 @(linebreak)
+@(smaller "First Year Computer Science and Physics Student")
 
 @(bold "Concord-Carlisle Regional High School")
 @(italic "2020 - 2024")
@@ -24,10 +25,9 @@ but nobody wants to help mom with the dishes.\"")
 @(smaller "Graduated Summa Cum Laude with Certificate in Engineering")
 @(linebreak)
 
-@(bold "Northeastern University")
-@(italic "2024 - present")
+@(bold "The British School in Tokyo")
+@(italic "2009 - 2020")
 @(linebreak)
-@(smaller "First Year Computer Science and Physics Student")
  
 @(larger @(larger (@bold "Work Experience")))
 @(linebreak)
