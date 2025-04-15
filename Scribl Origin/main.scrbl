@@ -10,7 +10,9 @@
 but nobody wants to help mom with the dishes.\"")
 @(linebreak)- @(bold "Matthew Flatt, University of Utah")
 
-@(section "Education")
+@(larger @(larger (@bold "Education")))
+@(linebreak)
+@(line 750 0 "black")
  
 @(bold "The British School in Tokyo")
 @(italic "2009 - 2020")
@@ -27,12 +29,17 @@ but nobody wants to help mom with the dishes.\"")
 @(linebreak)
 @(smaller "First Year Computer Science and Physics Student")
  
-@section{Work Experience}
+@(larger @(larger (@bold "Work Experience")))
+@(linebreak)
+@(line 750 0 "black")
  
 For now, to handle the milk moustache, it's enough to give
 him a napkin. But it doesn't end there... oh, no.
 
-@section{Contact}
+@(larger @(larger (@bold "Contact")))
+@(linebreak)
+@(line 750 0 "black")
+
 @(hyperlink "https://www.linkedin.com/in/william-anstey-84237a21a/"
             "LinkedIn")
 @(linebreak)
