@@ -1,12 +1,17 @@
 #lang scribble/manual
 
-@(require 2htdp/image)
+@(require 2htdp/image) 
+
+@(title #:version "1.0"
+        "William Anstey")
  
-@title{On the Cookie-Eating Habits of Mice}
- 
-If you give a mouse a cookie, he's going to ask for a
-glass of milk.
- 
+@(bitmap/file "me.jpeg")
+@(linebreak)
+@(italic "\"Everyone wants to change the world,
+but nobody wants to help mom with the dishes.\"")
+@(linebreak)- @(bold "Matthew Flatt, University of Utah")
+
+
 @section{The Consequences of Milk}
  
 That ``squeak'' was the mouse asking for milk. Let's
@@ -21,4 +26,3 @@ well give it to him.
 For now, to handle the milk moustache, it's enough to give
 him a napkin. But it doesn't end there... oh, no.
 
-@(bitmap/file "scheck.png") 
