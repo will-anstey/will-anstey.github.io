@@ -6,7 +6,7 @@
  
 @(bitmap/file "me.jpeg")
 @(linebreak)
-@smaller{@italic{"Everyone wants to change the world, but nobody wants to help mom with the dishes"}}
+@smaller{@italic{"Everyone wants to change the world, but nobody wants to help mom with the dishes}}
 @(linebreak)
 @smaller{@bold{- Matthew Flatt, University of Utah}}
 
