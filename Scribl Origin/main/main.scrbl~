@@ -8,6 +8,16 @@
 @(title #:version "1.0"
         "William Anstey")
 
+@table-of-contents[]
+
+
+
+
+@section[#:style 'unnumbered "Home"]
+
+
+
+
 @(bitmap/file "../images/me.jpeg")
 @(linebreak)
 @smaller{@italic{"Everyone wants to change the world, but nobody wants to help mom with the dishes"}}
@@ -54,6 +64,7 @@ him a napkin. But it doesn't end there... oh, no.
 
 
 @section[#:style 'unnumbered "SpellChecker"]
+
 
 
 
