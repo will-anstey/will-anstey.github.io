@@ -1,22 +1,11 @@
 #lang scribble/manual
 
-@(define parent #f)
-
 @(require 2htdp/image)
-@(require (for-label scribble/manual))
-
+@(define parent #f)
 @(title #:version "1.0"
-        "Welcome to My Website!")
+        "William Anstey")
 
-@table-of-contents[]
-
-
-
-
-@section[#:style 'unnumbered "Home"]
-
-
-
+@include-section["../scheck/scheckScrbl.scrbl"]
 
 @(bitmap/file "../images/me.jpeg")
 @(linebreak)
@@ -61,35 +50,3 @@ him a napkin. But it doesn't end there... oh, no.
             "Email")
 
 
-
-
-@section[#:style 'unnumbered "SpellChecker"]
-
-
-
-
-
-@(bitmap/file "../images/scheckpyret.png")
-
-@(linebreak)
-@smaller{Memory-optimized Trie (Radix Tree) With Levenshtein Distance Tracing}
-
-
-
-
-@section[#:style 'unnumbered "Other Section"]
-
-
-
-
-fill in stuff here...
-
-
-
-
-@section[#:style 'unnumbered "Another Section"]
-
-
-
-
-fill in other stuff here...
