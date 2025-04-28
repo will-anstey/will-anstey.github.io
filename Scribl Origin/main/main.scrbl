@@ -1,9 +1,12 @@
 #lang scribble/manual
 
-@(require 2htdp/image) 
+@(require 2htdp/image)
+@(define parent #f)
 @(title #:version "1.0"
         "William Anstey")
- 
+
+@include-section["../scheck/scheckScrbl.scrbl"]
+
 @(bitmap/file "me.jpeg")
 @(linebreak)
 @smaller{@italic{"Everyone wants to change the world, but nobody wants to help mom with the dishes"}}
@@ -45,3 +48,5 @@ him a napkin. But it doesn't end there... oh, no.
 @(linebreak)
 @(hyperlink "mailto:anstey.w@northeastern.edu"
             "Email")
+
+
