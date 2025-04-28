@@ -6,7 +6,7 @@
 @(require (for-label scribble/manual))
 
 @(title #:version "1.0"
-        "Welcome to My Website!")
+        "William Anstey")
 
 @table-of-contents[]
 
