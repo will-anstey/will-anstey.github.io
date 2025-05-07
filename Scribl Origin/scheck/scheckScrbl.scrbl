@@ -2,10 +2,11 @@
 
 @(require 2htdp/image)
  
-@(bitmap/file "../scheck/scheckpyret.png")
+@(bitmap/file "../images/scheckpyret.png")
 @(title #:version "1.0"
-        "Spell Checker")
+        "Trie and Trie Again!")
 
 @(linebreak)
-@smaller{Memory-optimized Trie (Radix Tree) With Levenshtein Distance Tracing}
+@(define (f _) (bitmap/file "../images/RacketComputerText.png"))
+Spell Checking with Tries, Dynamic Programming, and Levenshtein Distance
 
