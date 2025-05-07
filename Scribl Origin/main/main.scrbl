@@ -8,34 +8,40 @@
 @(title #:version "1.0"
         "William Anstey")
 
-@(bitmap/file "../images/me.jpeg")
+@(bitmap/file "../images/home/me.jpeg")
 
 @(linebreak)
 @smaller{@italic{"Everyone wants to change the world, but nobody wants to help mom with the dishes"}}
 @(linebreak)
 @smaller{@bold{- Matthew Flatt, University of Utah}}
 
-@(define (contact-image _) (bitmap/file "../images/QuestionText.png"))
-@(define (education-image _) (bitmap/file "../images/RacketDocText.png"))
-@(define (work-image _) (bitmap/file "../images/DesktopText.png"))
+@(define (contact-image _) (bitmap/file "../images/home/QuestionText.png"))
+@(define (education-image _) (bitmap/file "../images/home/RacketDocText.png"))
+@(define (work-image _) (bitmap/file "../images/home/DesktopText.png"))
+@(define (northeastern _) (bitmap/file "../images/home/Husky.png"))
+@(define (bst _) (bitmap/file "../images/home/BST.png"))
+@(define (cchs _) (bitmap/file "../images/home/CCHS.png"))
 
 @(education-image 4)
 @(larger @(larger (@bold "Education")))
 @(education-image 4)
 @(linebreak)
 @(line 750 0 "black")
- 
+
+@(northeastern 4)
 @(bold "Northeastern University")
 @(italic "2024 - present")
 @(linebreak)
 @(smaller "First Year Computer Science and Physics Student")
 
+@(cchs 3)
 @(bold "Concord-Carlisle Regional High School")
 @(italic "2020 - 2024")
 @(linebreak)
 @(smaller "Graduated Summa Cum Laude with Certificate in Engineering")
 @(linebreak)
 
+@(bst 3)
 @(bold "The British School in Tokyo")
 @(italic "2009 - 2020")
 @(linebreak)
@@ -69,10 +75,12 @@ him a napkin. But it doesn't end there... oh, no.
 
 
 
-@(bitmap/file "../images/scheckpyret.png")
+@(bitmap/file "../images/scheck/scheckpyret.png")
 @(linebreak)
 @(define (f _) (bitmap/file "../images/RacketComputerText.png"))
 Spell Checking with Tries, Dynamic Programming, and Levenshtein Distance
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 @(require 2htdp/image)
  
-@(bitmap/file "../images/scheckpyret.png")
+@(bitmap/file "../images/scheck/scheckpyret.png")
 @(title #:version "1.0"
         "Trie and Trie Again!")
 
