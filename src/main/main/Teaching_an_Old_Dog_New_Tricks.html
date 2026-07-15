@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=0.8"/><title>Teaching an Old Dog New Tricks</title><link rel="stylesheet" type="text/css" href="scribble.css" title="default"/><link rel="stylesheet" type="text/css" href="manual-style.css" title="default"/><link rel="stylesheet" type="text/css" href="manual-racket.css" title="default"/><script type="text/javascript" src="scribble-common.js"></script><script type="text/javascript" src="manual-racket.js"></script><!--[if IE 6]><style type="text/css">.SIEHidden { overflow: hidden; }</style><![endif]--></head><body id="scribble-racket-lang-org"><div class="tocset"><div class="tocview"><div class="tocviewlist tocviewlisttopspace"><div class="tocviewtitle"><table cellspacing="0" cellpadding="0"><tr><td style="width: 1em;"><a href="javascript:void(0);" title="Expand/Collapse" class="tocviewtoggle" onclick="TocviewToggle(this,&quot;tocview_0&quot;);">&#9660;</a></td><td></td><td><a href="index.html" class="tocviewlink" data-pltdoc="x">William Anstey</a></td></tr></table></div><div class="tocviewsublistonly" style="display: block;" id="tocview_0"><table cellspacing="0" cellpadding="0"><tr><td align="right"></td><td><a href="" class="tocviewselflink" data-pltdoc="x">Teaching an Old Dog New Tricks</a></td></tr><tr><td align="right"></td><td><a href="The_Death_of_Software_Engineering.html" class="tocviewlink" data-pltdoc="x">The Death of Software Engineering</a></td></tr><tr><td align="right"></td><td><a href="Another_Section.html" class="tocviewlink" data-pltdoc="x">Another Section</a></td></tr></table></div></div></div></div><div class="maincolumn"><div class="main"><div class="navsettop"><span class="navleft"><div class="nosearchform"></div>&nbsp;&nbsp;<span class="tocsettoggle">&nbsp;&nbsp;<a href="javascript:void(0);" title="show/hide table of contents" onclick="TocsetToggle();">contents</a></span></span><span class="navright">&nbsp;&nbsp;<a href="index.html" title="backward to &quot;William Anstey&quot;" data-pltdoc="x" rel="prev">&larr; prev</a>&nbsp;&nbsp;<a href="index.html" title="up to &quot;William Anstey&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<a href="The_Death_of_Software_Engineering.html" title="forward to &quot;The Death of Software Engineering&quot;" data-pltdoc="x" rel="next">next &rarr;</a></span>&nbsp;</div><h3 class="heading"><a name="(part._.Teaching_an_.Old_.Dog_.New_.Tricks)"></a>Teaching an Old Dog New Tricks<span class="button-group"><a href="#(part._.Teaching_an_.Old_.Dog_.New_.Tricks)" class="heading-anchor" title="Link to here">🔗</a><span style="visibility: hidden"> </span></span></h3><p>In the winter of 2025, I was going down another EBay rabbit hole for something I probably shouldn&rsquo;t
+spend my money on. I&rsquo;ve done this many times, and it&rsquo;s yielded all kinds of results &ndash; some better,
+some much worse. But this time what came out of it was a <span style="font-weight: bold">Macintosh Plus</span> from 1986
+and the many adventures that came with it:
+learning about Macintosh System 6/7, BlueSCSI, MacTraps, dare I say the
+<span class="Smaller"><span style="font-style: italic">C programming language</span></span>, and much, much, more...</p><p><img style="vertical-align: 0px; margin: -3px -3px -3px -3px;" src="pict_8.png" alt="image" width="686" height="633"/> <span class="Smaller"><span style="font-style: italic">My buddy Nick up to no good</span></span></p><p>After getting all the accessories such as a mouse, keyboard, cables, and
+a few floppies to play around with, I started to have an idea about what I wanted to do with this
+awesome retro machine &ndash; aside from playing around with MacWrite and MacPaint. I wanted to get
+this computer on the <span style="font-weight: bold">internet</span>!</p><p>This wouldn&rsquo;t be easy, however. The first step was finding a way to get data in and out of the
+computer other than the miserably slow <span class="Smaller">F l o p p y  D r i v e s</span>
+I&rsquo;d been using up to that point. It&rsquo;s interesting that in this era, often times the main
+bottleneck was NOT the CPU speed, but rather the read/write speed from storage. In fact,
+once I got it hooked up to modern SD cards over floppies, the computer ran at least an order
+of magnitude faster! This is because the memory is teeny teeny tiny &ndash; just one little megabyte on the
+whole computer! For context, a single photo taken on a modern smartphone is ~3 megabytes. This means
+that much of the information the computer needs can&rsquo;t fit in memory, so it has to read from storage.
+This results in spinning the Floppy Drive and reading each bit, bit by bit (pun acknowledged), which
+is incomparably slower than reading it off of the memory chips.</p><p>The Motorola 68000 processor that powers the Mac Plus was actually fast for the time &ndash; as it needed
+to be to render the beautiful User Interface (thank you,
+<a href="https://invention.si.edu/invention-stories/susan-kare-iconic-designer">Susan Kare</a>).</p><p>I used two devices to get my Mac interfacing with SD cards, which let me download software
+online and load it onto the Plus in minutes. These were the
+<a href="https://www.bigmessowires.com/floppy-emu/">FloppyEMU</a> and the
+<a href="https://bluescsi.com/">BlueSCSI</a>.
+The EMU plugs into the port that reads Floppy Drives, and tricks the Mac into thinking
+it&rsquo;s talking to one. With this little device I can download and run pretty much any
+software I want that was made for the Macintosh. Online repositories like Macintosh Garden
+make it easy to download the files I need, and then it&rsquo;s just a matter of loading them onto the
+SD card and plugging it all in!</p><p><img style="vertical-align: 0px; margin: -3px -3px -3px -3px;" src="pict_9.png" alt="image" width="686" height="479"/>
+<span class="Smaller"><span style="font-style: italic">The FloppyEMU hooked up to the Mac</span></span></p><p>As fun as this was playing old games and running old softwares, this device was limited in
+a couple ways. For one thing, the data transfer speed is a ghastly 63 <span class="Larger">KILOBYTES</span> a second,
+and it also won&rsquo;t get me on the internet. For that I&rsquo;d need the <a href="1.1.1.1">BlueSCSI v2</a>
+with it&rsquo;s killer WiFi/DaynaPORT emulation feature &ndash;
+which communicates at a comparatively speedy 320 KB/s.</p><p><img style="vertical-align: 0px; margin: -3px -3px -3px -3px;" src="pict_10.png" alt="image" width="686" height="824"/>
+<span class="Smaller"><span style="font-style: italic">The BlueSCSI in all its glory</span></span></p><p>This thing can act as 8 different hard drives at once, letting me store volumes of data on the Mac
+that would have been unthinkable in 1986. The other thing it can do is emulate a DaynaPORT SCSI to
+Ethernet device. This was an external device that would plug in to the Mac&rsquo;s SCSI port which would
+allow you to connect an Ethernet cable to your Mac. The BlueSCSI takes this a step further by then
+taking that (emulated) Ethernet connection and putting it over WiFi. So you&rsquo;re doing
+WiFi-&gt;Ethernet-&gt;DaynaPORT-&gt;SCSI-&gt;Macintosh Plus. All emulated by one device, that&rsquo;s also storing
+all your files! Yeah, this one was worth the ~$100 price tag.</p><p>Now that I had the hardware all set up to do this, there was another hurdle. Remember that
+<span style="font-style: italic">teeny weeny</span> amount of memory the Mac had? 1 single megabyte? Well, that&rsquo;s a problem too. All
+the software that came out to do things with the internet like web browsers were made for computers
+that were also made for the internet. This means that my 1986 Mac is too old even for 90s software!
+So, a memory expansion was in order.
+What I didn&rsquo;t expect was that doing this would require puting my life on the line.
+That&rsquo;s why I got Nick to do it.</p><p>Once I got the BlueSCSI up and running it was only a matter of installing the right drivers and other
+software to get it all running, which was not overly challenging. After teaching my Mac how to do
+networking over TCP/IP (the names of the specific protocols with which I&rsquo;d talk to the internet), it
+was time to connect to a website! Powered by the ancient MacWeb browser, here it is, a 1986 Macintosh
+Plus browsing the modern web, 40 years later and slow as hell!</p><p><img style="vertical-align: 0px; margin: -3px -3px -3px -3px;" src="pict_11.png" alt="image" width="686" height="813"/>
+<span class="Smaller"><span style="font-style: italic">Voila!</span></span></p><div class="navsetbottom"><span class="navleft"><div class="nosearchform"></div>&nbsp;&nbsp;<span class="tocsettoggle">&nbsp;&nbsp;<a href="javascript:void(0);" title="show/hide table of contents" onclick="TocsetToggle();">contents</a></span></span><span class="navright">&nbsp;&nbsp;<a href="index.html" title="backward to &quot;William Anstey&quot;" data-pltdoc="x" rel="prev">&larr; prev</a>&nbsp;&nbsp;<a href="index.html" title="up to &quot;William Anstey&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<a href="The_Death_of_Software_Engineering.html" title="forward to &quot;The Death of Software Engineering&quot;" data-pltdoc="x" rel="next">next &rarr;</a></span>&nbsp;</div></div></div><div id="contextindicator">&nbsp;</div></body></html>
